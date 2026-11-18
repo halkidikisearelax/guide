@@ -38,12 +38,12 @@ const CONFIG = {
     phone:    '+359888849906',
     viber:    '+359888849906',
     whatsapp: '+359888849906',
-    viberChannel: 'ПОПЪЛНИ: линк към Viber канала (Viber → канала → Сподели → Копирай линк)'
+    viberChannel: 'https://invite.viber.com/?g2=AQB2gGHZaJIrD1Q0hXE2zXIbv8jNWoB8R2isK%2BtEdN3Ny2QW1AY2BTl5YioFZNmP'
   },
 
   wifi: {
-    network:  'ПОПЪЛНИ: име на мрежата',
-    password: 'ПОПЪЛНИ: парола'
+    network:  'Melton',
+    password: 'melanija'
   },
 
   checkin: {
@@ -67,9 +67,9 @@ const CONFIG = {
     { icon: '🤫', text: { bg: 'Тихи часове: 15:00–17:00 и 23:00–08:00.', en: 'Quiet hours: 15:00–17:00 and 23:00–08:00.' } },
     { icon: '🚭', text: { bg: 'Пушенето е разрешено само навън.',        en: 'Smoking is allowed outdoors only.' } },
     { icon: '🎉', text: { bg: 'Без партита и шумни събирания.',          en: 'No parties or loud gatherings.' } },
-    { icon: '🐾', text: { bg: 'ПОПЪЛНИ: домашни любимци – да / не / след уговорка.', en: 'ПОПЪЛНИ: pets – yes / no / on request.' } },
-    { icon: '🏊', text: { bg: 'Басейн: без стъклени чаши, деца само с възрастен, душ преди влизане. Няма спасител.',
-                          en: 'Pool: no glass, children only with an adult, shower before entering. No lifeguard on duty.' } },
+    { icon: '🐾', text: { bg: 'Домашни любимци – разрешени до 3 кг.', en: 'Pets are welcome up to 3 kg.' } },
+    { icon: '🏊', text: { bg: 'Басейн: дълбочина 1,50 м, ползване до 22:00. Децата – само под надзор на възрастен. Без стъклени чаши. Няма спасител.',
+                          en: 'Pool: 1.50 m deep, open until 22:00. Children only under adult supervision. No glass. No lifeguard on duty.' } },
     { icon: '👥', text: { bg: 'В къщата отсядат само гостите от резервацията.', en: 'Only the guests on the booking may stay in the house.' } }
   ],
 
@@ -103,6 +103,8 @@ const CONFIG = {
       ] },
     { icon: '🏊', title: { bg: 'Басейн', en: 'Pool' }, photo: '',
       steps: [
+        { bg: 'Дълбочина 1,50 м. Ползване до 22:00 ч.', en: 'Depth 1.50 m. Open until 22:00.' },
+        { bg: 'Децата влизат само под надзор на възрастен.', en: 'Children only under adult supervision.' },
         { bg: 'Басейнът се почиства редовно от техник – не пипайте помпата и таблото.', en: 'A technician cleans the pool regularly – please do not touch the pump or control panel.' },
         { bg: 'Душ преди влизане (слънцезащитният крем разваля водата).', en: 'Shower before entering (sunscreen spoils the water).' },
         { bg: 'Шезлонгите и чадърите прибирайте при вятър.',            en: 'Fold the sunbeds and umbrellas when it is windy.' }
@@ -130,15 +132,9 @@ const CONFIG = {
   ],
 
   food: [
-    { name: 'ПОПЪЛНИ: име на таверна', type: { bg: 'Таверна · риба', en: 'Taverna · fish' },
-      order: { bg: 'Поръчайте: октопод на скара, пържени калмари, салата хорта.', en: 'Order: grilled octopus, fried calamari, horta salad.' },
-      map: 'taverna Pefkohori' },
-    { name: 'ПОПЪЛНИ: име на грил / гирос', type: { bg: 'Грил · бързо и евтино', en: 'Grill · quick & cheap' },
-      order: { bg: 'Поръчайте: гирос в пита, сувлаки, порция за двама.', en: 'Order: gyros pita, souvlaki, a mixed platter for two.' },
-      map: 'gyros Pefkohori' },
-    { name: 'ПОПЪЛНИ: име на кафене / сладкарница', type: { bg: 'Кафе · закуска', en: 'Coffee · breakfast' },
-      order: { bg: 'Поръчайте: фредо капучино и бугаца с крем.', en: 'Order: freddo cappuccino and bougatsa with cream.' },
-      map: 'cafe bakery Pefkohori' }
+    { name: 'Mnēmes Farm', type: { bg: 'Ресторант · гръцка кухня', en: 'Restaurant · Greek cuisine' },
+      order: { bg: 'Нашата препоръка за истинска гръцка кухня. Попитайте за предложенията на деня.', en: 'Our pick for authentic Greek food. Ask for the dishes of the day.' },
+      map: 'https://maps.app.goo.gl/Mizkb1EQsZfKgqRW6' }
   ],
 
   shops: [
